@@ -1,0 +1,45 @@
+body {
+  background: #f8f9fc;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card wrapper */
+.dashboard-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Table styling */
+.interview-table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.interview-table tbody tr {
+  transition: 0.2s ease;
+}
+
+.interview-table tbody tr:hover {
+  background-color: #f1f7ff;
+  transform: scale(1.01);
+}
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #0056b3, #0096c7);
+  transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+body {
+  background: #f8f9fc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Card wrapper */
+.dashboard-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(90deg, #28a745, #20c997);
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #218838, #198754);
+  transform: scale(1.05);
+}
