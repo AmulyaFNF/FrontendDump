@@ -165,7 +165,7 @@ export default function ApplicationDetailsPage() {
           </li>
         </ul>
         <div className="card-footer text-end">
-          <Link to="/" className="btn btn-outline-secondary">
+          <Link to="/interviewer/interviewlist" className="btn btn-outline-secondary">
             ⬅ Back to Interviews
           </Link>
         </div>
@@ -216,3 +216,4 @@ export default function ApplicationDetailsPage() {
     </div>
   );
 }
+
