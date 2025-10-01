@@ -45,7 +45,7 @@ export default function InterviewListPage() {
   }, [token, interviewerId]);
   function handleView(interview: Interview) {
     sessionStorage.setItem("interviewId", interview.interviewId.toString());
-    navigate(`/application/${interview.interviewId}`);
+    navigate(`/interviewer/${interview.interviewId}`);
   }
 
   return (
@@ -98,4 +98,5 @@ export default function InterviewListPage() {
       </div>
     </div>
   );
+
 }
